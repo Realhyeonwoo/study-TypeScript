@@ -1,0 +1,22 @@
+{
+  "name": "study-typescript",
+  "version": "1.0.0",
+  "description": "Study TypeScript by trying to make BlockChain",
+  "main": "index.js",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Realhyeonwoo/study-TypeScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  }
+}
